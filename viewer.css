@@ -60,6 +60,9 @@ body {
     min-width: 0;
     min-height: 0;
     overflow: hidden;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    box-sizing: border-box;
 }
 
 #mirador {
@@ -78,5 +81,7 @@ body {
 }
 
 .where-next h2 {
+    margin: 0;
     font-size: 18px;
+    font-weight: normal;
 }
