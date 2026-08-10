@@ -12,3 +12,9 @@ body {
 body {
     overflow: hidden;
 }
+
+#mirador {
+    width: 100%;
+    height: 100%;
+    background: #e8e7e3;
+}
