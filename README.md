@@ -1,2 +1,2 @@
 # reading-territory
-To Read
+A permanent home for the reading.
