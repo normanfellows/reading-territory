@@ -5,14 +5,35 @@
     <meta charset="UTF-8">
     <title>Norman Fellows Scrapbook Viewer</title>
 
-    <link rel="stylesheet" href="viewer.css">
-
     <script src="https://unpkg.com/mirador@4.0.0/dist/mirador.min.js"></script>
 </head>
 
 <body>
 
-<div id="mirador"></div>
+<header class="page-header">
+    <h1>Reading Territory</h1>
+</header>
+
+<main class="viewer-layout">
+
+    <aside class="notebook">
+        <h2>Curator's Notebook</h2>
+
+        <ol>
+            <li><a href="#">AD/10/66 — Potteries Thinkbelt</a></li>
+            <li><a href="#">New Society, 2 June 1966 — Potteries Thinkbelt</a></li>
+        </ol>
+    </aside>
+
+    <section class="viewer">
+        <div id="mirador"></div>
+    </section>
+
+</main>
+
+<footer class="where-next">
+    <h2>Where next?</h2>
+</footer>
 
 <script>
     Mirador.viewer({
