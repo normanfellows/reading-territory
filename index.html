@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Norman Fellows Scrapbook Viewer</title>
+
+    <script src="https://unpkg.com/mirador@4.0.0/dist/mirador.min.js"></script>
+</head>
+
+<body>
+
+<div id="mirador"></div>
+
+<script>
+    Mirador.viewer({
+        id: "mirador",
+        windows: [
+            {
+                manifestId: "https://normanfellows.github.io/reading-territory/manifest.json"
+            }
+        ]
+    });
+</script>
+
+</body>
+
+</html>

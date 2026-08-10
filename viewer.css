@@ -1,0 +1,80 @@
+/* ==========================================
+   Reading Health
+   Version 0.6.2
+   The Norman Fellows Scrapbook Viewer
+   ========================================== */
+
+
+/* ==========================================
+   RESET
+   ========================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ==========================================
+   PAGE
+   ========================================== */
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background: #ffffff;
+    color: #222;
+    height: 100vh;
+}
+
+
+/* ==========================================
+   HEADER
+   ========================================== */
+
+header {
+    padding: 18px 24px;
+    border-bottom: 1px solid #dddddd;
+}
+
+
+/* ==========================================
+   MAIN LAYOUT
+   ========================================== */
+
+main {
+    display: flex;
+    height: calc(100vh - 120px);
+}
+
+
+/* ==========================================
+   SIDEBAR
+   ========================================== */
+
+aside {
+    width: 300px;
+    padding: 20px;
+    border-right: 1px solid #dddddd;
+    overflow-y: auto;
+}
+
+
+/* ==========================================
+   MIRADOR VIEWER
+   ========================================== */
+
+#mirador-viewer {
+    flex: 1;
+    position: relative;
+}
+
+
+/* ==========================================
+   FOOTER
+   ========================================== */
+
+footer {
+    padding: 8px 24px;
+    border-top: 1px solid #dddddd;
+}

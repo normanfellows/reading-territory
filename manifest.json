@@ -1,0 +1,107 @@
+{
+  "id": "https://normanfellows.github.io/reading-territory/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Norman Fellows Scrapbook Viewer"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://normanfellows.github.io/reading-territory/canvas-01",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "AD/10/66 — Cover"
+        ]
+      },
+      "width": 2775,
+      "height": 3600,
+      "items": [
+        {
+          "id": "https://normanfellows.github.io/reading-territory/canvas-01/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://normanfellows.github.io/reading-territory/canvas-01/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://normanfellows.github.io/reading-territory/images/item_01821.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2775,
+                "height": 3600
+              },
+              "target": "https://normanfellows.github.io/reading-territory/canvas-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://normanfellows.github.io/reading-territory/canvas-02",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "New Society — PTb territorial map"
+        ]
+      },
+      "width": 694,
+      "height": 467,
+      "items": [
+        {
+          "id": "https://normanfellows.github.io/reading-territory/canvas-02/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://normanfellows.github.io/reading-territory/canvas-02/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://normanfellows.github.io/reading-territory/images/item_00003.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 694,
+                "height": 467
+              },
+              "target": "https://normanfellows.github.io/reading-territory/canvas-02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://normanfellows.github.io/reading-territory/canvas-03",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "AD/10/66 — p.486"
+        ]
+      },
+      "width": 2775,
+      "height": 3600,
+      "items": [
+        {
+          "id": "https://normanfellows.github.io/reading-territory/canvas-03/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://normanfellows.github.io/reading-territory/canvas-03/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://normanfellows.github.io/reading-territory/images/item_01825.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2775,
+                "height": 3600
+              },
+              "target": "https://normanfellows.github.io/reading-territory/canvas-03"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
