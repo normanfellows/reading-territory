@@ -1,13 +1,27 @@
+<!-- =========================================
+     Reading Territory
+     A Proposition in Formation
+     The Norman Fellows Scrapbook Viewer
+========================================= -->
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Norman Fellows Scrapbook Viewer</title>
 
-    <link rel="stylesheet" href="viewer.css">
+<meta charset="UTF-8">
 
-    <script src="https://unpkg.com/mirador@4.0.0/dist/mirador.min.js"></script>
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Reading Territory</title>
+
+<link rel="stylesheet"
+      href="https://unpkg.com/mirador@latest/dist/css/mirador.min.css">
+
+<link rel="stylesheet"
+      href="viewer.css">
+
 </head>
 
 <body>
@@ -18,43 +32,33 @@
 
 <main class="viewer-layout">
 
-    <aside class="notebook">
-        <h2>Curator's Notebook</h2>
+<aside>
+    <h2>Curator's Notebook</h2>
 
-        <ol>
-    <li>
-        <a href="documents/AD_10_66_Potteries_Thinkbelt.pdf">
+    <p>
+        1. <a href="documents/AD_10_66_Potteries_Thinkbelt.pdf">
             AD/10/66 — Potteries Thinkbelt
         </a>
-    </li>
-    <li>
-        <a href="documents/New_Society_02_06_1966_Potteries_Thinkbelt.pdf">
+    </p>
+
+    <p>
+        2. <a href="documents/New_Society_02_06_1966_Potteries_Thinkbelt.pdf">
             New Society, 2 June 1966 — Potteries Thinkbelt
         </a>
-    </li>
-</ol>
-    </aside>
+    </p>
+</aside>
 
-    <section class="viewer">
-        <div id="mirador"></div>
-    </section>
+        <section id="mirador-viewer"></section>
 
 </main>
 
-<footer class="where-next">
-    <h2>Where next?</h2>
+<footer>
+    Where next?
 </footer>
 
-<script>
-    Mirador.viewer({
-        id: "mirador",
-        windows: [
-            {
-                manifestId: "https://normanfellows.github.io/reading-territory/manifest.json"
-            }
-        ]
-    });
-</script>
+<script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+
+<script src="viewer.js"></script>
 
 </body>
 
