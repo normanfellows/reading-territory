@@ -1,5 +1,6 @@
 {
-  "id": "https://normanfellows.github.io/reading-territory/manifest.json",
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -8,96 +9,96 @@
   },
   "items": [
     {
-      "id": "https://normanfellows.github.io/reading-territory/canvas-01",
+      "id": "canvas-1",
       "type": "Canvas",
       "label": {
         "en": [
-          "AD/10/66 — Cover"
+           "AD/10/66 — Cover"
         ]
       },
       "width": 2775,
       "height": 3600,
       "items": [
         {
-          "id": "https://normanfellows.github.io/reading-territory/canvas-01/page",
+          "id": "annotation-page-1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://normanfellows.github.io/reading-territory/canvas-01/image",
+              "id": "annotation-1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://normanfellows.github.io/reading-territory/images/item_01821.png",
+                "id": "images/item_01821.png",
                 "type": "Image",
                 "format": "image/png",
                 "width": 2775,
                 "height": 3600
               },
-              "target": "https://normanfellows.github.io/reading-territory/canvas-01"
+              "target": "canvas-1"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://normanfellows.github.io/reading-territory/canvas-02",
+      "id": "canvas-2",
       "type": "Canvas",
       "label": {
         "en": [
-          "New Society — PTb territorial map"
+          "Supplement No. 5 — Housing"
         ]
       },
-      "width": 694,
-      "height": 467,
+      "width": 1050,
+      "height": 849,
       "items": [
         {
-          "id": "https://normanfellows.github.io/reading-territory/canvas-02/page",
+          "id": "annotation-page-2",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://normanfellows.github.io/reading-territory/canvas-02/image",
+              "id": "annotation-2",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://normanfellows.github.io/reading-territory/images/item_00003.jpg",
+                "id": "images/item_16842.png",
                 "type": "Image",
-                "format": "image/jpeg",
-                "width": 694,
-                "height": 467
+                "format": "image/png",
+                "width": 1050,
+                "height": 849
               },
-              "target": "https://normanfellows.github.io/reading-territory/canvas-02"
+              "target": "canvas-2"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://normanfellows.github.io/reading-territory/canvas-03",
+      "id": "canvas-3",
       "type": "Canvas",
       "label": {
         "en": [
-          "AD/10/66 — p.486"
+          "PRINCIPLES"
         ]
       },
-      "width": 2775,
-      "height": 3600,
+      "width": 1050,
+      "height": 849,
       "items": [
         {
-          "id": "https://normanfellows.github.io/reading-territory/canvas-03/page",
+          "id": "annotation-page-3",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://normanfellows.github.io/reading-territory/canvas-03/image",
+              "id": "annotation-3",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://normanfellows.github.io/reading-territory/images/item_01825.png",
+                "id": "images/item_16825.png",
                 "type": "Image",
                 "format": "image/png",
-                "width": 2775,
-                "height": 3600
+                "width": 1050,
+                "height": 849
               },
-              "target": "https://normanfellows.github.io/reading-territory/canvas-03"
+              "target": "canvas-3"
             }
           ]
         }
